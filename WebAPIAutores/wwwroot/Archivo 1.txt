@@ -1,0 +1,8 @@
+Proceso Iniciado
+Proceso en ejecucion: 16/11/2024 04:25:28
+Proceso en ejecucion: 16/11/2024 04:25:33
+Proceso en ejecucion: 16/11/2024 04:25:38
+Proceso en ejecucion: 16/11/2024 04:25:43
+Proceso en ejecucion: 16/11/2024 04:25:48
+Proceso en ejecucion: 16/11/2024 04:25:53
+Proceso finalizado
