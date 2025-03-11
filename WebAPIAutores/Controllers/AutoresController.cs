@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OutputCaching;
 using Microsoft.EntityFrameworkCore;
 using WebAPIAutores.DTOs;
 using WebAPIAutores.Entidades;
@@ -28,7 +29,8 @@ namespace WebAPIAutores.Controllers
         }
 
 
-        [HttpGet("{id:int}")] 
+        [HttpGet("{id:int}")]
+        [OutputCache]
         public async Task<ActionResult<AutorDTO>> Get(int id)
         {
             var autor =  await context.Autores.FirstOrDefaultAsync(x => x.Id == id);
