@@ -17,6 +17,9 @@ namespace WebAPIAutores.Utilidades
 
             CreateMap<ComentarioCreacionDTO, Comentario>();
             CreateMap<Comentario, ComentarioDTO>();
+
+            CreateMap<EmpleadoCreacionDTO, Empleado>();
+            CreateMap<Empleado, EmpleadoDTO>();
         }
 
         private object MapAutoresLibros(LibroCreacionDTO libroCreacionDTO, Libro libro)
